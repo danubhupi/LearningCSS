@@ -23,3 +23,19 @@ div p
 {
     here style gets applied to all the p tags that come inside a div tag , what that means is that the immediat eparent of the p tag needs not be a div tag
 }
+
+here instead of the tags there can be classes also or even attributes
+
+we can set style by using attributes in fthe following manner
+
+ex :- <input type='text' data-set='3' contenteditable> </input>
+
+[data-set='3']
+{
+styles
+}
+
+[contenteditable]
+{
+    styles
+}

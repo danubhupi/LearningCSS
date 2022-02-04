@@ -1,0 +1,25 @@
+. is for classes
+
+# is for id
+
+inline > id > classes and pseudo classes > element tags >  body > *
+
+div + p
+{
+ Here style gets applied to <p> which are directly adjacent of an div tag
+}
+
+div ~ p
+{
+    Here styles get applied to all <p> which come after the div tag inside the parent , this div and p elements need not be adjacent to each other
+}
+
+div >p
+{
+    Here style gets applied to all the p tags which are direct descendant of a div tag what that means is that their immediate parent should be a div tag
+}
+
+div p
+{
+    here style gets applied to all the p tags that come inside a div tag , what that means is that the immediat eparent of the p tag needs not be a div tag
+}

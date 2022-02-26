@@ -39,3 +39,31 @@ styles
 {
     styles
 }
+
+
+
+
+
+Learned about shorthand and differernt properties
+
+1.When we set the height and width of a div it generally means that we've set the height and 
+width of the content inside the div , then when we set the padding , margin , border of the div what we get is that the
+total dimensions are width + padding + margin + border width 
+
+2.But usuallyy we don't want this to happen and we want some thing that combines all these and the resultant dimensions are only of width and height
+This is done by a property callled
+
+box-sizing:border-box;
+
+the default for this is
+
+box-sizing:content-box;  and this result in point 1 
+
+usually we set this for the entire page like
+
+*
+{
+box-sizing:border-box;
+}
+
+
